@@ -1,0 +1,50 @@
+.home {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: top center;
+    background-image: url(../img/home-background.jpg);
+    background-size: cover;
+    
+}
+
+.home-content h1 {
+    color: var(--second-bg-color);
+    text-shadow: 0 0 1rem var(--main-second-color);
+    font-size: 7em;
+    margin-right: 10rem;
+}
+
+.home-content h3 {
+    font-size: 2em;
+    padding: 1rem;
+}
+
+.home-content p {
+    font-size: x-large;
+    font-weight: 500;
+    padding: 1rem;
+    width: 50%;
+}
+.home-content h3, p{
+    text-shadow: 2px 2px  var(--bg-color);
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+    border: .2rem solid var(--second-bg-color);
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--second-bg-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+.social-media a:hover {
+    background: var( --second-bg-color);
+    color: var(--text-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}

@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;500;700&family=Great+Vibes&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+:root {
+    --bg-color: #E1D4BB;
+    --second-bg-color: #537188;
+    --text-color: #CBB279;
+    --main-color: #aca38f;
+    --main-second-color: #EEEEEE;
+}
+body {
+    background-color: var(--second-bg-color);
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+
